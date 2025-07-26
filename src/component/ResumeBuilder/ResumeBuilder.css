@@ -1,0 +1,139 @@
+.resume-ui-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9fc;
+  padding: 20px;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #6f42c1;
+  font-weight: bold;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.header-actions button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.save-btn {
+  background: #f1f1f1;
+}
+
+.download-btn {
+  background: linear-gradient(to right, #6f42c1, #a64bf4);
+  color: white;
+}
+
+.template-section {
+  margin-top: 20px;
+}
+
+.template-buttons button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  color: #000000;
+}
+
+.template-buttons .active {
+  background: #ece6fc;
+  border-color: #6f42c1;
+  color: #000000;
+}
+
+.main-section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.section-tabs {
+  /* display: flex; */
+  flex-direction: column;
+  gap: 8px;
+  margin-right: 20px;
+}
+
+.section-tabs button {
+  padding: 10px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-weight: 500;
+  color: #444;
+}
+
+.section-tabs .active {
+  background: #ece6fc;
+  border-left: 4px solid #6f42c1;
+  color: #6f42c1;
+}
+
+.resume-content {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.form-section {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-section input,
+.form-section textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.preview-section {
+  width: 55%;
+}
+
+.preview-paper {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.preview-paper h1 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.preview-paper h2 {
+  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  font-size: 18px;
+}
+
+.preview-paper ul {
+  margin-left: 20px;
+  list-style: disc;
+}

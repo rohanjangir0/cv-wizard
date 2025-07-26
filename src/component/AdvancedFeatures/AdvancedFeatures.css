@@ -1,0 +1,205 @@
+.advanced-features {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fafafa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-label {
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.features-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.features-heading span {
+  color: #7b61ff;
+}
+
+.features-subheading {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* CARD BASE */
+.feature-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  max-width: 300px;
+  flex: 1 1 250px;
+  text-align: left;
+  transition: transform 0.3s ease, background 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card:hover {
+  transform: scale(1.03);
+}
+
+/* INDIVIDUAL HOVERS */
+.feature-card.ats:hover {
+  background: linear-gradient(135deg, #e6f4ea, #d2f7dc);
+}
+
+.feature-card.ai-content:hover {
+  background: linear-gradient(135deg, #fde8f3, #fbe3f0);
+}
+
+.feature-card.realtime:hover {
+  background: linear-gradient(135deg, #e8f0fe, #d5e4ff);
+}
+
+.feature-card.smart-format:hover {
+  background: linear-gradient(135deg, #fff2e5, #ffe5ce);
+}
+
+/* ICON BOX */
+.icon-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: white;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.feature-card:hover .icon-box {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.icon-box.green {
+  background-color: #34a853;
+}
+
+.icon-box.pink {
+  background-color: #d63384;
+}
+
+.icon-box.blue {
+  background-color: #3b82f6;
+}
+
+.icon-box.orange {
+  background-color: #f97316;
+}
+
+/* Extra Features */
+.feature-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #444;
+}
+
+.progress-bar {
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  height: 6px;
+  width: 100%;
+  position: relative;
+}
+
+.progress {
+  background-color: #34a853;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.progress-label {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #333;
+  font-weight: 500;
+}
+
+.feature-list {
+  margin-top: 10px;
+  font-size: 13px;
+  padding-left: 20px;
+  color: #333;
+}
+
+.feature-list li {
+  margin-bottom: 4px;
+}
+
+/* Collaborators */
+.collaborators {
+  margin-top: 15px;
+}
+
+.avatars {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.a { background: #f87171; }
+.dot.b { background: #34d399; }
+.dot.c { background: #60a5fa; }
+.dot.d { background: #facc15; }
+
+.online-label {
+  font-size: 13px;
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+/* File Types */
+.file-types {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.type {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: white;
+  font-weight: 600;
+}
+
+.type.pdf {
+  background-color: #f97316;
+}
+.type.doc {
+  background-color: #3b82f6;
+}
+.type.png {
+  background-color: #a78bfa;
+}

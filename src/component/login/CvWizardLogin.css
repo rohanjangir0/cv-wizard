@@ -1,0 +1,248 @@
+body {
+  background-size: 50px 50px;
+   background-image: 
+        linear-gradient(#f3f4f6 1px, transparent 1px), 
+        linear-gradient(to right, #f3f4f6 1px, transparent 1px),
+  radial-gradient(ellipse at center, rgba(255,255,255,0) 40%,rgba(235,235,248,1) 100%);
+  background-size: 50px 50px, 0px 50px, 100% 100%;
+  background-blend-mode:multiply;
+  z-index: -1000px;
+  background-color: #ebebf8;
+  text-decoration: none;
+  
+}
+.circle-bg{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(168,85,247,0.5), transparent 100%);
+  filter: blur(100px);
+  border-radius: 50%;
+  z-index: 0;
+}
+.login-container{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.left-panel{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 80px;
+    
+}
+.main-login-heading{
+    font-size: 2.5rem;
+
+}
+.total-customer {
+  background: linear-gradient(90deg, #3b82f6, #a855f7); /* blue to purple */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.left-panel p{
+    font-size: 15px;
+    color: hsl(250, 9%, 25%);
+    
+}
+.features-login{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+.features-login strong{
+    font-size: 15px;
+    display: block;
+    width: 200px;
+}
+.features-login li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px; 
+  margin-bottom: 20px;
+  flex-direction: row;
+  width: auto;
+}
+.features-login p {
+  margin: 25px px 30px;
+  color: #555;
+  margin-left: -216px;
+  margin-top: 25px;
+}
+.features-login i{
+    font-size: 40px;
+    
+    background: linear-gradient(90deg, #3b82f6, #a855f7);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    width:45px;
+    height: 50px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex-shrink: 0;
+    
+
+}
+.testimonial {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px 25px;
+  border-left: 4px solid #8b5cf6;
+  border-radius: 8px;
+  margin: 30px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.main-login-description{
+    display: block;
+    margin-top: -10px;
+}
+.right-panel {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin: 90px 0px 0px 130px;
+}
+
+.right-panel h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.right-panel p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.name-fields {
+  display: flex;
+  gap: 20px;
+}
+
+.name-fields > div {
+  flex: 1;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.signin-button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+   background: linear-gradient(90deg, #3b82f6, #a855f7);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.social-buttons button {
+  /* flex: 1; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 50px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  border: 1px solid rgb(155, 148, 148);
+  color: black;
+  
+}
+.social-buttons i{
+    font-size: 20px;
+    
+}
+
+.google {
+    background-color: white;
+    
+    border: 2px solid black;
+    transition: all 0.7s ease-out;
+}
+.google:hover{
+    color: white;
+     background: linear-gradient(90deg, #3b82f6, #a855f7);
+}
+
+.github {
+  background-color: white;
+  /* border: 2px solid black; */
+  transition: all 0.7s ease-out;
+}
+.github:hover{
+    color: white;
+     background: linear-gradient(90deg, #3b82f6, #a855f7);
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #6d28d9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .login-container {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  .testimonial {
+    flex-direction: column;
+  }
+}
